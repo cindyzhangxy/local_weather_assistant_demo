@@ -1,0 +1,27 @@
+.env# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / operating system files
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local logs
+*.log
+
+# test
+test_connection.py
